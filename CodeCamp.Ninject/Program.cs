@@ -24,7 +24,7 @@ namespace CodeCamp.Ninject
                 logService.LogIt(DateTime.Now, e.Source, e.Message);
             }
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
